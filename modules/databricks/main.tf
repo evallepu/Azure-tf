@@ -19,6 +19,7 @@ resource "azurerm_databricks_workspace" "workspace" {
   tags = var.tags
 }
 
+
 output "databricks_workspace_id" {
   value = azurerm_databricks_workspace.workspace.id
 }

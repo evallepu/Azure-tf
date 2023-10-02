@@ -15,7 +15,8 @@ variable "location" {
   type        = string
   default     = "East US"
 }
-\
+
+
 variable "sku" {
   description = "The SKU (tier) of the Databricks workspace (e.g., standard, premium)."
   type        = string
